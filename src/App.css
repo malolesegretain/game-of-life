@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn-group {
+  display : block;
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 1%;
+}
+
+.btn-group:focus {
+  outline : none;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.grid {
+  margin-left : auto;
+  line-height: 0;
+  margin-right: auto;
+  border-top : 1px solid black;
+  border-bottom : 1px solid black;
+  margin-bottom: 3%;
+  margin-top : 2%;
+  padding-left : 0 !important;
+  padding-right: 0 !important;
+}
+
+.box {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  margin-left : -1px;
+  margin-bottom : -1px;
+  margin-top : -1px;
+}
+
+.box:hover {
+  background-color: cyan;
+}
+
+.on {
+  background-color: green;
+}
+
+.off {
+  background-color: white;
+}
